@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+  margin: 20px 0 0 15px;
+}
+.logoPosition {
+  display: flex;
+  align-items: start;
+}
+a,
+p,
+li,
+h3,
+.CountProducts {
+  color: lightgreen;
+  text-decoration: none;
+  list-style: none;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.ProductDescription {
+  display: flex;
+  color: cyan;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  display: flex;
+}
+h4 {
+  display: flex;
+  color: cyan;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+a:hover {
+  color: deeppink;
+}
+.ProductList {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 10px;
+  font-size: calc(5px + 2vmin);
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 10px 20px 0 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.commentText {
+  color: magenta;
+  display: flex;
+  justify-content: start;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  width: calc(10px + 12vmin);
+  font-size: calc(7px + 1vmin);
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(85, 224, 147, 0.2);
+  transition: 0.4s;
+}
+
+.ProductSale {
+  width: calc(500px + 1vmin);
+  display: flex;
+  justify-content: space-between;
+}
+.ProductSale:hover {
+  color: deeppink;
+}
+
+input {
+  display: none;
+}
+.buttonProduct {
+  margin: 0 0 10px 0;
+}
+.commentarSend {
+  display: flex;
+  width: calc(500px + 1vmin);
+  justify-content: space-between;
+}
+.descriptionSend {
+  display: flex;
+  width: calc(500px + 1vmin);
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.descriptionSend textArea {
+  width: 396px;
+}
+.commentarSend textArea {
+  width: 396px;
+}
+textarea {
+  min-height: 80px;
+  min-width: 290px;
+}
+.reg {
+  color: white;
+  background-color: rgba(85, 224, 147, 1);
+}
+
+.log {
+  color: rgb(85, 224, 147);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(85, 224, 147, 1);
+}
+
+button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(85, 224, 147, 0.6);
+  background-color: rgba(85, 224, 147, 1);
+}
+
+.InOutButton {
+  display: flex;
+  justify-content: flex-end;
+}
